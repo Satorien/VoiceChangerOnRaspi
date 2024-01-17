@@ -1,3 +1,7 @@
+## 注意書き
+このレポジトリは以下のLLVCのレポジトリを元に作成されている
+
+以下、元ソースのreadmeテキスト
 # LLVC: **L**ow-Latency **L**ow-Resource **V**oice **C**onversion
 This repository contains the code necessary to train Koe AI's LLVC models and to reproduce the LLVC paper.
 
@@ -74,12 +78,3 @@ If you find out work relevant to your research, please cite:
       primaryClass={cs.SD}
 }
 ```
-
-
-## For JishuProject
-ラズパイ上で以下のように音声の変換を行う
-1. Run 
-```
-python infer.py -n 64 -s
-```
-2. 
