@@ -1,5 +1,8 @@
 ## 注意書き
 このレポジトリは以下のLLVCのレポジトリを元に作成されている
+主な変更点は、
+stream_infer.py
+にてリアルタイム音声変換を実装したところである
 
 以下、元ソースのreadmeテキスト
 # LLVC: **L**ow-Latency **L**ow-Resource **V**oice **C**onversion
